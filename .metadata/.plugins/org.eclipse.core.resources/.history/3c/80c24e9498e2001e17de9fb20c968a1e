@@ -1,0 +1,26 @@
+package com.chandu.springex;
+
+public class Student {
+	private EmailServices emailServices;
+	private CourseServices courseServices;
+	public EmailServices getEmailServices() {
+		return emailServices;
+	}
+	public void setEmailServices(EmailServices emailServices) {
+		this.emailServices = emailServices;
+	}
+	public CourseServices getCourseServices() {
+		return courseServices;
+	}
+	public void setCourseServices(CourseServices courseServices) {
+		this.courseServices = courseServices;
+	}
+	public void details()
+	{
+		emailServices.message();
+		courseServices.courseinfo();
+	}
+		
+	}
+
+

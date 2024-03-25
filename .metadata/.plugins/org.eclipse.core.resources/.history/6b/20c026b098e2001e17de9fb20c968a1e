@@ -1,0 +1,26 @@
+package com.chandu.springex;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class JavaConfig {
+
+  
+    public Student student()
+    {
+    	Student student=new Student(emailServices(),javacourseservices());
+    	
+		return student;
+    }
+
+	private Object javacourseservices() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	private Object emailServices() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}

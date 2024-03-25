@@ -1,0 +1,12 @@
+package com.chandu;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Employee employee=new Employee(143,"chandu", 60000.45);
+		System.out.println(employee);
+
+	}
+
+}

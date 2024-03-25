@@ -1,0 +1,33 @@
+package com.chandu.spring;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
+public class Person {
+	private Homeloan homeloan;
+	private Realestate realestate;
+	@Autowired
+	public Homeloan getHomeloan() {
+		return homeloan;
+	}
+	public void setHomeloan(Homeloan homeloan) {
+		this.homeloan = homeloan;
+	}
+	@Autowired
+	public Realestate getRealestate() {
+		return realestate;
+	}
+	public void setRealestate(Realestate realestate) {
+		this.realestate = realestate;
+	}
+   public void perinfo()
+   {
+	   homeloan.loaninfo();
+	   realestate.realinfo();
+   }
+public void setHomeloan() {
+	// TODO Auto-generated method stub
+	
+}
+}

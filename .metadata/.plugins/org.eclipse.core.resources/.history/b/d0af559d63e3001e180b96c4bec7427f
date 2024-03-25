@@ -1,0 +1,30 @@
+package com.chandu.spring;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+
+public class JavaConfig {
+	@Bean
+	public Homeloan homeloan()
+	{
+		Homeloan homeloan=new Homeloan();
+		return homeloan;
+	}
+	@Bean
+	public Realestate realestate()
+	{
+		Realestate realestate=new Realestate();
+		return realestate;
+	}
+	@Bean
+	public Person person()
+	{
+		Person person=new Person(homeloan(),realestate());
+		
+		return person;
+	}
+
+}

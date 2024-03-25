@@ -1,0 +1,8 @@
+package com.chandu.spring;
+
+public class Realestate {
+	public void realinfo() {
+		System.out.println("this realestate service");
+	}
+
+}

@@ -1,0 +1,21 @@
+package com.chandu.springex;
+
+import org.springframework.stereotype.Component;
+
+
+public class Student {
+	@Component
+	private EmailServices emailServices;
+	@Component
+	private CourseServices courseServices;
+	
+
+	public void details()
+	{
+		emailServices.message();
+		courseServices.courseinfo();
+	}
+		
+	}
+
+

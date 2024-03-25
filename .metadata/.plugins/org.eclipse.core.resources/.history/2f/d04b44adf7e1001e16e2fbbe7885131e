@@ -1,0 +1,11 @@
+package com.chandu.springex;
+
+public class EmailServices implements MessageServices {
+
+	@Override
+	public void message() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,15 @@
+package com.chandu.springex;
+
+public class Greetingimpl implements Greeting {
+
+	@Override
+	public void greet() {
+		System.out.println("good morning");
+		System.out.println("i am chandu");
+	}
+	public void Greetingimpl()
+	{
+		System.out.println("object created");
+	}
+
+}

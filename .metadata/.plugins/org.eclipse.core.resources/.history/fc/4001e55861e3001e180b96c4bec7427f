@@ -1,0 +1,9 @@
+package com.chandu.spring;
+
+public class Homeloan {
+	public void loaninfo()
+	{
+		System.out.println("homeloan is 45000 per month");
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.chandu.springex.Beans;
+
+public class Traveller {
+
+}
